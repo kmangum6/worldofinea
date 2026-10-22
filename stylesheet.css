@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Fredericka+the+Great&family=Cinzel&display=swap");
 
 :root {
   --forest: #228b22;
@@ -146,8 +146,7 @@ body {
     flex-wrap: wrap;
     gap: 12px;
     max-width: 720px;
-    margin-top: 24px;
-    margin: 0 auto;
+    margin: 24px o auto;
 }
 
 .btn-nations {
@@ -157,8 +156,7 @@ body {
     flex-wrap: wrap;
     gap: 12px;
     max-width: 720px;
-    margin-top: 24px;
-    margin: 0 auto;
+    margin: 24px 0 auto;
 }
 
 .btn-quick {
@@ -168,8 +166,7 @@ body {
     flex-wrap: wrap;
     gap: 12px;
     max-width: 720px;
-    margin-top: 24px;
-    margin: 0 auto;
+    margin: 24px 0 auto;
 }
 
 .btn-quick .btn:last-child:nth-child(3n + 1) {
@@ -348,7 +345,7 @@ body {
 
 .overview h2 {
     font-size: 40px;
-    text-decoration: bold;
+    font-weight: bold;
     text-transform: uppercase;
     font-family: "Cinzel", Georgia, serif;
 }
@@ -439,8 +436,8 @@ body {
     text-transform: uppercase;
 }
 
-.tab-panel h3, h4, h5 {
-    text-transform: bold;
+.tab-panel h3, .tab-panel h4, .tab-panel h5 {
+    font-weight: bold;
     text-transform: capitalize;
 }
 
@@ -530,6 +527,6 @@ body {
     }
 }
  
-@media (hover: hover) {
+@media (hover: hover) and (min-width: 701px) {
     .dropdown:hover .dropdown-menu { display: block; }
 }
