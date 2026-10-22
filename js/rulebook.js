@@ -8,6 +8,14 @@ const SECTIONS = [
             <p>More text goes here.</p>`,
     },
     {
+        id: "harold",
+        title: "Harold",
+        body: `
+            <p>Details</p>
+            <h3>A subheading</h3>
+            <p>More text goes here.</p>`,
+    },
+    {
         id: "oog",
         title: "Out-Of-Game Rules",
         body: `
