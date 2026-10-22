@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Fredericka+the+Great&display=swap");
+
+:root {
+  --forest: #228b22;
+  --darkforest: #14532d;
+  --deepforest: #0f3d22;
+  --darkgray: #2b2f2c;
+  --medgray: #4a504b;
+  --litegray: #d4d8d5;
+  --superlitegray: #eef0ee;
+  --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0;
+    font-family: "EB Garamond", Garamond, Georgia, serif;
+    color: var(--darkgray);
+    background: var(--white);
+    line-height: 1.6;
+}
+ 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: var(--darkgray);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+.navbar a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 15px;
+}
+ 
+.navbar a:hover {
+    background: var(--forest);
+}
+ 
+.navbar .home {
+    background: var(--darkforest);
+}
+ 
+.navbar .links {
+    display: flex;
+    margin-left: auto;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-toggle {
+    background: var(--darkgray);
+    border: 0;
+    font: inherit;
+    font-size: 15px;
+    color: var(--white);
+    padding: 14px 18px;
+    cursor: pointer;
+}
+ 
+.dropdown-toggle:hover {
+    background: var(--forest);
+}
+ 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 12rem;
+    background: var(--forest);
+    z-index: 10;
+}
+ 
+.dropdown-menu a {
+    display: block;
+    padding: 0.6rem 1rem;
+}
+ 
+.dropdown.open .dropdown-menu {
+    display: block;
+}
+ 
+.burger {
+    display: none;
+    margin-left: auto;
+    background: none;
+    border: 0;
+    color: var(--white);
+    font-size: 22px;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+ 
+.drawer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--medgray);
+}
+ 
+.drawer .dropdown-menu {
+    display: block;
+    position: static;
+    padding-left: 1rem;
+}
+ 
+.btn-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 24px;
+}
+
+.btn-cultures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 720px;
+    margin-top: 24px;
+    margin: 0 auto;
+}
+
+.btn-nations {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 720px;
+    margin-top: 24px;
+    margin: 0 auto;
+}
+
+.btn-quick {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 720px;
+    margin-top: 24px;
+    margin: 0 auto;
+}
+
+.btn-quick .btn:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+}
+ 
+.hero {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(rgba(15, 61, 34, .85), rgba(15, 61, 34, .85)), repeating-linear-gradient(45deg, #1d6b2a 0 40px, #2f7d3a 40px 80px);
+    color: var(--white);
+}
+ 
+.hero h1 {
+    font-family: "Fredericka the Great", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(36px, 8vw, 64px);
+    letter-spacing: 0.05em;
+    margin: 0 0 8px;
+}
+ 
+.hero p {
+    font-size: 20px;
+    margin: 8px 0 28px;
+    color: var(--litegray);
+}
+ 
+.btn {
+    display: inline-block;
+    background: var(--forest);
+    color: var(--white);
+    border: 0;
+    padding: 14px 32px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+}
+ 
+.btn:hover {
+    background: var(--superlitegray);
+    color: var(--darkforest);
+}
+ 
+.btn:focus-visible, .navbar a:focus-visible, .burger:focus-visible {
+    outline: 3px solid var(--superlitegray);
+    outline-offset: 2px;
+}
+
+.page-banner {
+    padding: 140px 20px 60px;
+    text-align: center;
+    background: linear-gradient(rgba(15, 61, 34, .85), rgba(15, 61, 34, .85)), repeating-linear-gradient(45deg, #1d6b2a 0 40px, #2f7d3a 40px 80px);
+    color: var(--white);
+}
+
+.page-banner h1 {
+    font-family: "Fredericka the Great", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(36px, 8vw, 64px);
+    letter-spacing: 0.05em;
+    margin: 0 0 8px;
+}
+
+.page-banner p {
+    margin: 0;
+    color: var(--litegray);
+    font-size: 20px;
+}
+
+.contact {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+    display: block;
+    width: 100%;
+    font: inherit;
+    padding: 12px;
+    border: 1px solid var(--litegray);
+    border-radius: 2px;
+    margin-bottom: 32px;
+}
+
+.downtime {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+}
+
+.downtime-form label {
+    display: block;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.downtime-form input, .downtime-form select, .downtime-form textarea {
+    display: block;
+    width: 100%;
+    font: inherit;
+    padding: 12px;
+    border: 1px solid var(--litegray);
+    border-radius: 2px;
+    margin-bottom: 32px;
+}
+
+.archive {
+    background: var(--superlitegray);
+    padding: 60px 24px 80px;
+}
+
+.archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.versioncard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--white);
+    border: 1px solid var(--litegray);
+    border-top: 4px solid var(--forest);
+    border-radius: 4px;
+    padding: 28px 24px;
+}
+
+.versioncard:hover {
+    box-shadow: 0 6px 18px rgba(15, 61, 34, .15);
+}
+
+.versioncard h2 {
+    font-family: "Fredericka the Great", Georgia, serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.03em;
+    color: var(--darkforest);
+    margin: 0 0 12px;
+}
+
+.versioncard .versiondate {
+    margin: 0 0 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--medgray);
+}
+
+.versioncard p {
+    margin: 0 0 20px;
+    color: var(--medgray);
+}
+
+.versioncard .btn {
+    margin-top: auto;
+    padding: 10px 24px;
+}
+
+.overview {
+    text-align: center;
+}
+
+.overview h2 {
+    font-size: 40px;
+    text-decoration: bold;
+    text-transform: uppercase;
+    font-family: "Cinzel", Georgia, serif;
+}
+ 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 48px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+ 
+.row>* {
+    flex: 1 1 320px;
+}
+ 
+.row.alt {
+    flex-direction: row-reverse;
+}
+ 
+.row h2 {
+    font-size: 34px;
+    color: var(--darkforest);
+    margin: 0 0 8px;
+}
+ 
+.row h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--medgray);
+    margin: 0 0 16px;
+}
+ 
+.row p {
+    margin: 0;
+    color: var(--medgray);
+    max-width: 62ch;
+}
+
+.row .btn {
+    margin-top: 24px;
+}
+
+.tabs {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--litegray);
+}
+
+.tab {
+    background: var(--forest);
+    color: var(--white);
+    border: 0;
+    border-radius: 2px;
+    padding: 8px 18px;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background: var(--superlitegray);
+    color: var(--darkforest);
+}
+
+.tab.active {
+    background: var(--darkforest);
+    color: var(--white);
+}
+
+.tab:focus-visible {
+    outline: 3px solid var(--darkforest);
+    outline-offset: 3px;
+}
+
+.tab-panel {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.tab-panel h2 {
+    text-transform: uppercase;
+}
+
+.tab-panel h3, h4, h5 {
+    text-transform: bold;
+    text-transform: capitalize;
+}
+
+.tab-panel p {
+    margin-left: 20px;
+}
+ 
+.img {
+    aspect-ratio: 4 / 3;
+    border-radius: 4px;
+    border: 1px solid var(--litegray);
+}
+ 
+.img.a {
+    background: linear-gradient(160deg, var(--forest) 0 55%, var(--medgray) 55% 100%);
+}
+ 
+.img.b {
+    background: linear-gradient(200deg, var(--litegray) 0 50%, var(--darkforest) 50% 100%);
+}
+ 
+.band {
+    background: var(--superlitegray);
+}
+ 
+.quickstart {
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(rgba(15, 61, 34, .85), rgba(15, 61, 34, .85)), repeating-linear-gradient(45deg, #1d6b2a 0 40px, #2f7d3a 40px 80px);
+    color: var(--white);
+}
+ 
+.quickstart h1 {
+    font-size: clamp(28px, 6vw, 60px);
+    margin: 0;
+    font-weight: 600;
+}
+ 
+.footer {
+    background: var(--darkgray);
+    color: var(--litegray);
+    text-align: center;
+    padding: 28px 16px;
+    font-size: 14px;
+}
+ 
+.footer p {
+    margin: 0 0 8px;
+}
+ 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ 
+.footer a:hover {
+    color: var(--forest);
+}
+ 
+.footer .footer-links a {
+    color: #9be3a4;
+    text-decoration: underline;
+}
+ 
+@media (max-width: 700px) {
+    .navbar .links {
+        display: none;
+    }
+ 
+    .burger {
+        display: block;
+    }
+ 
+    .row.alt {
+        flex-direction: row;
+    }
+}
+ 
+@media (min-width: 701px) {
+    .drawer {
+        display: none;
+    }
+}
+ 
+@media (hover: hover) {
+    .dropdown:hover .dropdown-menu { display: block; }
+}
