@@ -109,12 +109,26 @@ body {
     flex-direction: column;
     width: 100%;
     background: var(--medgray);
+    max-height: calc(100vh - 60px);
+    max-height: calc(100dvh - 60px);
+    overflow-y: auto;
 }
  
 .drawer .dropdown-menu {
-    display: block;
     position: static;
+    min-width: 0;
     padding-left: 1rem;
+}
+
+.drawer .dropdown {
+    display: block;
+    width: 100%;
+}
+
+.drawer .dropdown-toggle {
+    width: 100%;
+    text-align: left;
+    background: var(--medgray);
 }
  
 .btn-main {
