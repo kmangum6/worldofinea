@@ -13,7 +13,7 @@ const FEATURES = [
     {
         id: "dakrian",
         title: "Dakrian",
-        text: "Cool tag",
+        text: "The Storytellers",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -21,7 +21,7 @@ const FEATURES = [
     {
         id: "eisak",
         title: "Eisak",
-        text: "Cool Tag",
+        text: "The Monastic Orders",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -30,7 +30,7 @@ const FEATURES = [
     {
         id: "jicos",
         title: "Jicos",
-        text: "Cool tag",
+        text: "Those Who Keep Balance",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -38,7 +38,7 @@ const FEATURES = [
     {
         id: "morosus",
         title: "Morosus",
-        text: "Cool Tag",
+        text: "Those of the True Sacrifice",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -47,7 +47,7 @@ const FEATURES = [
     {
         id: "qicca",
         title: "Qicca",
-        text: "Cool tag",
+        text: "The Wild Ones",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -55,7 +55,7 @@ const FEATURES = [
     {
         id: "ruoatath",
         title: "Ruoatath",
-        text: "Cool Tag",
+        text: "The Caravaneers of the Strait",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -64,7 +64,7 @@ const FEATURES = [
     {
         id: "souza",
         title: "Souza",
-        text: "Cool tag",
+        text: "To Seek and Explore Everything",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -72,7 +72,7 @@ const FEATURES = [
     {
         id: "tehrux",
         title: "Tehrux",
-        text: "Cool tag",
+        text: "The Mad",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
