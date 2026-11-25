@@ -3,33 +3,32 @@ const CENTER = [ "#nextevent", "#event3", "#event2", "#event1"];
 const FEATURES = [
     {
         id: "nextevent",
-        title: "Event Title",
-        text: "Event Date",
-        body: "Details",
+        title: "UPCOMING! - January Day Game",
+        text: "January 23th, 2027",
+        body: "Welcome back to a new season of the World of Inea - Winter 2027! This space will eventually be filled with a teaser about the upcoming event, and you'll be able to register for the event soon!",
         button: { label: "Buy a Ticket!", href: "/tickets.html" },
         tone: "b",
         reverse: true,
     },
     {
         id: "event3",
-        title: "Event Title",
-        text: "Event Date",
-        body: "Details",
+        title: "February Day Game",
+        text: "February 27, 2027",
+        body: "This information will be updated as a teaser becomes available and event details are finalized.",
         tone: "a",
     },
     {
         id: "event2",
-        title: "Event Title",
-        text: "Event Date",
-        body: "Details",
-        tone: "b",
+        title: "The Redstone Door",
+        text: "May 30th, 2026",
+        body: "This information will be updated as a teaser becomes available and event details are finalized.",
         reverse: true,
     },
     {
         id: "event1",
-        title: "Event Title",
-        text: "Event Date",
-        body: "Details",
+        title: "The Line That Should Not Shift",
+        text: "April 11th, 2026",
+        body: "This information will be updated as a teaser becomes available and event details are finalized.",
         tone: "a",
     },
 ];
@@ -38,7 +37,7 @@ const Overview = () => `
     <section class="overview" id="overview">
         <div>
             <h2>Overview</h2>
-            <p>What the hell are the Ides of March?</p>
+            <p>This page is where you can find upcoming Inea events. As the event gets closer, you'll get to see this page updated with a teaser for the event, and you can also get a link here to be able to purchase tickets! \n Feel free to reach out if you do have any questions to worldofinea@gmail.com. NOTE: With the new 2027 season still in the works, some of these days may be in flux. Keep an eye on our Discord for the most current updates on what is going on. \n We hope to see you wandering the world soon!</p>
         </div>
     </section>`;
  
