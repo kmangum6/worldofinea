@@ -330,6 +330,7 @@ body {
 
 .overview {
     text-align: center;
+    margin: 100px;
 }
 
 .overview h2 {
@@ -337,7 +338,6 @@ body {
     text-decoration: bold;
     text-transform: uppercase;
     font-family: "Cinzel", Georgia, serif;
-    margin: 200px;
 }
  
 .row {
