@@ -22,10 +22,6 @@ body {
     background: var(--white);
     line-height: 1.6;
 }
-
-p {
-    margin-bottom: 10px;
-}
  
 .navbar {
     position: fixed;
@@ -37,6 +33,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+p {
+    margin-bottom: 40px;
 }
  
 .navbar a {
