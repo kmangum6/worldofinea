@@ -114,7 +114,7 @@ const FEATURES = [
     },
     {
         id: "wyld",
-        title: "The Swampland of Wyld",
+        title: "The Jungles of Wyld",
         text: "Cool tag",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },

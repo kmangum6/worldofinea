@@ -84,7 +84,9 @@ const Overview = () => `
     <section class="overview" id="overview">
         <div>
             <h2>Religion Overview</h2>
-            <p>Losing my religion...</p>
+            <p>PARDON OUR DUST! THIS PAGE IS UNDER CONSTRUCTION!</p>
+            <p>Not to worry, it won't remain so for long. This page is empty for now as the religion information is still being fleshed out fully by the Story Team, due to some of the rules changes that are coming out in rulebook 2.0! These should become available as soon as the rulebook is also available, with Religion docs coming out shortly afterwards.</p>
+            <p>To make sure that the site pieces are ready to go, this page has been left in place so that we can reference it as we make changes before deploying the full site with the new rulebook.</p>
             <div class="btn-cultures">
                 <a class="btn" href="#balance">The Balance</a>
                 <a class="btn" href="#martyr">Children of the Martyr</a>
