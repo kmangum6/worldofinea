@@ -91,8 +91,8 @@ const FEATURES = [
 const Overview = () => `
     <section class="overview" id="overview">
         <div>
-            <h2>Cultural Overview</h2>
-            <p>Culture, culture, what is it you say?</p>
+            <h2>Overview</h2>
+            <p>In Inea, rather than having character race or species be a defining feature, a character's culture is much more important. There aren't any elves, dwarves, tieflings, or things like that (see Ixreans for more details if you <b>do</b> want some of that kind of costuming). Instead, everyone is human in Inea, but culture makes them particularly different. \nCulture not only decides something of what you are or how you roleplay, but also some of the mechanics that your character receives. Each character will start out with one cultural trait (see the Rulebook for more details on what each culture has available) and this will ultimately change the way that you play the game. \n Keep in mind that characters can be multi-cultural, you just only get to choose one cultural trait. </p>
             <div class="btn-cultures">
                 <a class="btn" href="#amorone">Amorone</a>
                 <a class="btn" href="#dakrian">Dakrian</a>
