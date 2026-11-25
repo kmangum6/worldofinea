@@ -2,10 +2,10 @@ const CENTER = [ "#anathema", "#archetypes", "#buider", "#signup", "#backstory",
  
 const FEATURES = [
     {
-        id: "anathama",
+        id: "anathema",
         title: "What is an Anathema?",
-        text: "Cool Tag",
-        body: "Details",
+        text: "People keep saying that my character is an Anathema... but I have no idea what that means?",
+        body: "&quot;Anathema&quot; are a special feature of this world. For the most part in Inea, magic is a chaotic thing for people. It gets in the way, causes problems out of the blue, and is generally avoided as much as possible. For Anathema, however, magic is a part of their very soul. They are the only ones who possess the ability to control it - allowing them much greater power and an inherent strength that so-called normal people lack.</p><p>However, this also comes at the price of safety. While Anathema are particularly strong, they are also in particular danger. Their ability to control magic seems to cause monsters to appear wherever they are located, getting stronger the longer that they remain in one place. That is why, no matter what culture they belong to, Anathema are almsot always on the move.",
         tone: "b",
         reverse: true,
     },
@@ -15,15 +15,6 @@ const FEATURES = [
         text: "Cool tag",
         body: "Details",
         tone: "a",
-    },
-    {
-        id: "builder",
-        title: "The Character Builder",
-        text: "Cool tag",
-        body: "Details",
-        button: {label: "Create a Character!", href: "builder.html"},
-        tone: "b",
-        reverse: true,
     },
     {
         id: "signup",
@@ -63,7 +54,9 @@ const Overview = () => `
     <section class="overview" id="overview">
         <div>
             <h2>Where Do I Begin?</h2>
-            <p>AAAAUGH! TOO MANY WORDS! NO WANT READ LOTS!</p>
+            <p>Sometimes getting started in a LARP is one of the hardest parts of attending. After all, even if you've been to plenty of other LARPs things can seem overwhelming and exhausting when you're first looking at all the information.</p>
+            <p>That is where this page comes in. Our Quickstart Guide is meant to help you get going with as little information as you can - letting you engage more fully in the LARP one piece at a time. Everything is easier when you can bite it off in chunks, right?</p>
+            <p>The sections below will go over a lot of the simpler information. Go step by step down this list and it will walk you through the basics of who your character is, what you need to know to play the game, and how to get signed up as well as what to make sure you have for your first event. As always, if you do have any questions that aren't answered here, you're also welcome to send us an email at worldofinea@gmail.com.</p>
             <div class="btn-quick">
                 <a class="btn" href="#anathema">What Are Anathema?</a>
                 <a class="btn" href="#archetypes">Character Archetypes</a>

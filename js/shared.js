@@ -24,7 +24,7 @@ const LINKS = [
             { label: "Between Games", href: "downtime.html" },
         ],
     }, 
-    { label: "Character Builder", href: "builder.html" },
+    { label: "Character Submission", href: "https://forms.gle/m4FTC1Ee7noY19Uh7" },
     { label: "Contact", href: "contact.html" },
 ];
  
