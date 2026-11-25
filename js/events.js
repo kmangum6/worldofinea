@@ -3,39 +3,10 @@ const CENTER = [ "#nextevent", "#Feb2027", "#Mar2027", "#Apr2027", "#May2027"];
 const FEATURES = [
     {
         id: "nextevent",
-        title: "UPCOMING! - January Day Game",
-        text: "January 23th, 2027",
-        body: "Welcome back to a new season of the World of Inea - Winter 2027! This space will eventually be filled with a teaser about the upcoming event, and you'll be able to register for the event soon!",
-        button: { label: "Buy a Ticket!", href: "/tickets.html" },
+        title: "COMING SOON!",
+        text: "Winter 2027 Season",
+        body: "Our Winter season has not yet started, and we're currently working to solidify dates for the event. Once the rulebook gets fully completed (2.0 coming soon) we'll be able to get our schedule sent out. This should be released in December of 2026.",
         tone: "b",
-        reverse: true,
-    },
-    {
-        id: "Feb2027",
-        title: "February Day Game",
-        text: "February 27, 2027",
-        body: "This information will be updated as a teaser becomes available and event details are finalized.",
-        tone: "a",
-    },
-    {
-        id: "Mar2027",
-        title: "March Day Game",
-        text: "March 27, 2027",
-        body: "This information will be updated as a teaser becomes available and event details are finalized.",
-        reverse: true,
-    },
-    {
-        id: "Apr2027",
-        title: "April Weekend Game",
-        text: "April 22-24, 2027",
-        body: "This information will be updated as a teaser becomes available and event details are finalized.",
-        tone: "a",
-    },
-    {
-        id: "May2027",
-        title: "May Weekend Game (Winter Season Finale)",
-        text: "May 21-23, 2027",
-        body: "This information will be updated as a teaser becomes available and event details are finalized.",
         reverse: true,
     },
 ];
