@@ -2,7 +2,6 @@ const LINKS = [
     {
         label: "World",
         children: [
-            { label: "Current Events", href: "world.html" },
             { label: "Cultures", href: "cultures.html" },
             { label: "Nations", href: "nations.html" },
             { label: "Religions", href: "religions.html" },

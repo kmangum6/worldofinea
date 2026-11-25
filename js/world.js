@@ -1,9 +1,9 @@
-const CENTER = [ "#nextevent", "#event3", "#event2", "#event1"];
+const CENTER = [ "#recent", "#event3", "#event2", "#event1"];
  
 const FEATURES = [
     {
         id: "nextevent",
-        title: "UPCOMING! - January Day Game",
+        title: "HADUS AND DERIDIA AT WAR!",
         text: "January 23th, 2027",
         body: "Welcome back to a new season of the World of Inea - Winter 2027! This space will eventually be filled with a teaser about the upcoming event, and you'll be able to register for the event soon!",
         button: { label: "Buy a Ticket!", href: "/tickets.html" },
@@ -37,7 +37,8 @@ const Overview = () => `
     <section class="overview" id="overview">
         <div>
             <h2>Overview</h2>
-            <p>This page is where you can find upcoming Inea events. As the event gets closer, you'll get to see this page updated with a teaser for the event, and you can also get a link here to be able to purchase tickets! \n Feel free to reach out if you do have any questions to worldofinea@gmail.com. NOTE: With the new 2027 season still in the works, some of these days may be in flux. Keep an eye on our Discord for the most current updates on what is going on. \n We hope to see you wandering the world soon!</p>
+            <p>Want to know a bit more about what is going on in the World of Inea? Part of this game is focused around the idea that the world is constantly changing to match the actions that the PCs are taking. To represent that, this page will regularly see updates about what has happened - generally around things that the player characters did (or didn't) do.</p>
+            <p>Keep in mind that this information isn't locked behind any lore skill or any special in-game interaction. All of these things are common (or generally common) knowledge. No need to worry about metagaming this info.</p>
         </div>
     </section>`;
  
