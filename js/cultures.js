@@ -4,7 +4,7 @@ const FEATURES = [
     {
         id: "amorone",
         title: "Amorone",
-        text: "Cool Tag",
+        text: "The Rats of the Sea",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
