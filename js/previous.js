@@ -6,7 +6,7 @@ const EVENTS = [
         title: "The Tower of the Wizard",
         date: "June 12th - 14th, 2026", 
         teaser: "After their encounter with the Laughing Storm and their goons, our intrepid adventurers have returned to Captain Redstone with a skiff... but not the correct one. Laughing Storm and his bandit Tehrux have made off with some kind of weapon - dangerous and risky - and now it is up to them to seek him out and try to get it back. Join us once again in the Tehrux desert as our players attempt to make their way back inside and seek after the answer behind the Redstone door and beyond.", 
-        link: "Downtime Form",
+        link: "https://forms.gle/PBakKKvm9K9VZLAD8",
     },
     {
         id:"event2",
