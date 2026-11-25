@@ -1,21 +1,9 @@
 const RULEBOOKS = [
     {
-        version: "Version #",
-        date: "Date of Version Release", 
-        notes: "What's changed", 
-        link: "Link to old doc",
-    },
-    {
-        version: "Version #",
-        date: "Date of Version Release", 
-        notes: "What's changed", 
-        link: "Link to old doc",
-    },
-    {
-        version: "Version #",
-        date: "Date of Version Release", 
-        notes: "What's changed", 
-        link: "Link to old doc",
+        version: "v1.2.1",
+        date: "April 2026", 
+        notes: "The original version of the rules released in the restart of Inea, 2026", 
+        link: "https://docs.google.com/document/d/1Tkob4kUlOoSCbB6MLS9EVlU2jVASJJ3UCIgZ2VHrr4Y/edit?tab=t.0#heading=h.8g3spph2vtrw",
     },
 ];
 
