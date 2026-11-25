@@ -6,7 +6,6 @@ const LINKS = [
             { label: "Cultures", href: "cultures.html" },
             { label: "Nations", href: "nations.html" },
             { label: "Religions", href: "religions.html" },
-            { label: "Factions", href: "factions.html" },
         ],
     },
     {

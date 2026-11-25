@@ -1,4 +1,4 @@
-const CENTER = [ "#nextevent", "#event3", "#event2", "#event1"];
+const CENTER = [ "#nextevent", "#Feb2027", "#Mar2027", "#Apr2027", "#May2027"];
  
 const FEATURES = [
     {
@@ -11,28 +11,28 @@ const FEATURES = [
         reverse: true,
     },
     {
-        id: "event1",
+        id: "Feb2027",
         title: "February Day Game",
         text: "February 27, 2027",
         body: "This information will be updated as a teaser becomes available and event details are finalized.",
         tone: "a",
     },
     {
-        id: "event2",
+        id: "Mar2027",
         title: "March Day Game",
         text: "March 27, 2027",
         body: "This information will be updated as a teaser becomes available and event details are finalized.",
         reverse: true,
     },
     {
-        id: "event3",
+        id: "Apr2027",
         title: "April Weekend Game",
         text: "April 22-24, 2027",
         body: "This information will be updated as a teaser becomes available and event details are finalized.",
         tone: "a",
     },
     {
-        id: "event4",
+        id: "May2027",
         title: "May Weekend Game (Winter Season Finale)",
         text: "May 21-23, 2027",
         body: "This information will be updated as a teaser becomes available and event details are finalized.",
