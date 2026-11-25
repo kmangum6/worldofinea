@@ -330,12 +330,11 @@ body {
 
 .overview {
     text-align: center;
-    margin: 100px;
+    margin: 0 auto;
 }
 
 .overview h2 {
     font-size: 40px;
-    text-decoration: bold;
     text-transform: uppercase;
     font-family: "Cinzel", Georgia, serif;
 }
