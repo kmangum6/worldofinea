@@ -11,7 +11,7 @@ const FEATURES = [
         reverse: true,
     },
     {
-        id: "event3",
+        id: "event1",
         title: "February Day Game",
         text: "February 27, 2027",
         body: "This information will be updated as a teaser becomes available and event details are finalized.",
@@ -19,17 +19,24 @@ const FEATURES = [
     },
     {
         id: "event2",
-        title: "The Redstone Door",
-        text: "May 30th, 2026",
+        title: "March Day Game",
+        text: "March 27, 2027",
         body: "This information will be updated as a teaser becomes available and event details are finalized.",
         reverse: true,
     },
     {
-        id: "event1",
-        title: "The Line That Should Not Shift",
-        text: "April 11th, 2026",
+        id: "event3",
+        title: "April Weekend Game",
+        text: "April 22-24, 2027",
         body: "This information will be updated as a teaser becomes available and event details are finalized.",
         tone: "a",
+    },
+    {
+        id: "event4",
+        title: "May Weekend Game (Winter Season Finale)",
+        text: "May 21-23, 2027",
+        body: "This information will be updated as a teaser becomes available and event details are finalized.",
+        reverse: true,
     },
 ];
 
