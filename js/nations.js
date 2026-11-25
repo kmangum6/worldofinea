@@ -147,8 +147,10 @@ const Feature = ({ id, title, text, body, button, reverse, tone }) => `
     const Overview = () => `
     <section class="overview" id="overview">
         <div>
-            <h2>Nations Overview</h2>
-            <p>Where did you come from? Where did you go?</p>
+            <h2>Overview</h2>
+            <p>PARDON OUR DUST! THIS PAGE IS UNDER CONSTRUCTION!</p>
+            <p>Not to worry, it won't remain so for long. This page is empty for now as the nation information is still being fleshed out fully by the Story Team, due to some of the rules changes that are coming out in rulebook 2.0! These should become available as soon as the rulebook is also availalbe, with National docs coming out shortly afterwards.</p>
+            <p>To make sure that the site pieces are ready to go, this page has been left in place so that we can reference it as we make changes before deploying the full site with the new rulebook.</p>
             <div class="btn-nations">
                 <a class="btn" href="#aleriassi">Aleriassi</a>
                 <a class="btn" href="#azaldin">Azaldin</a>
