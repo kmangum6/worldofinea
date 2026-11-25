@@ -4,7 +4,7 @@ const FEATURES = [
     {
         id: "balance",
         title: "The Balance",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -13,7 +13,7 @@ const FEATURES = [
     {
         id: "martyr",
         title: "Children of the Martyr",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -21,7 +21,7 @@ const FEATURES = [
     {
         id: "drowned",
         title: "The Drowned Prophet",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -30,7 +30,7 @@ const FEATURES = [
     {
         id: "mother",
         title: "The Mother Tree",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -38,7 +38,7 @@ const FEATURES = [
     {
         id: "phoenix",
         title: "The Phoenix Cult",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -47,7 +47,7 @@ const FEATURES = [
     {
         id: "one",
         title: "The Sect of the One",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -55,7 +55,7 @@ const FEATURES = [
     {
         id: "three",
         title: "The Sect of the Three",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -64,7 +64,7 @@ const FEATURES = [
     {
         id: "stars",
         title: "Star Ancestor Worship",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -72,7 +72,7 @@ const FEATURES = [
     {
         id: "twin",
         title: "The Twin Pantheons",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Culture Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",

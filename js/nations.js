@@ -4,7 +4,7 @@ const FEATURES = [
     {
         id: "aleriassi",
         title: "The Scholarship of Aleriassi",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -13,7 +13,7 @@ const FEATURES = [
     {
         id: "azaldin",
         title: "The Azaldin Empire",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -21,7 +21,7 @@ const FEATURES = [
     {
         id: "ciarza",
         title: "Ciarza Dominance",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -30,7 +30,7 @@ const FEATURES = [
     {
         id: "deridia",
         title: "The Kingdom of Deridia",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -38,7 +38,7 @@ const FEATURES = [
     {
         id: "drezhe",
         title: "Drezhe",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -47,7 +47,7 @@ const FEATURES = [
     {
         id: "hadus",
         title: "The Old Hadus Empire",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -55,7 +55,7 @@ const FEATURES = [
     {
         id: "homeland",
         title: "The Dakrian Isle (aka Homeland)",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -64,15 +64,15 @@ const FEATURES = [
     {
         id: "kaeralle",
         title: "The Republic of Kaeralle",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
     },
     {
         id: "lasil",
-        title: "The Monastic Orders of Lasil",
-        text: "Cool tag",
+        title: "The Monastic Democracy of Lasil",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -81,7 +81,7 @@ const FEATURES = [
     {
         id: "maresh",
         title: "The Maresh Confederation",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -89,7 +89,7 @@ const FEATURES = [
     {
         id: "phelhar",
         title: "The Princedom of Phelhar",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -98,7 +98,7 @@ const FEATURES = [
     {
         id: "saarden",
         title: "The Saarden Meritocracy",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -106,7 +106,7 @@ const FEATURES = [
     {
         id: "desertedwastes",
         title: "The Deserted Wastes of the Tehrux",
-        text: "Cool Tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
@@ -115,7 +115,7 @@ const FEATURES = [
     {
         id: "wyld",
         title: "The Jungles of Wyld",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "a",
@@ -123,7 +123,7 @@ const FEATURES = [
     {
         id: "zathea",
         title: "The Zathean Rebellion",
-        text: "Cool tag",
+        text: "Summary",
         body: "Details",
         button: { label: "Full Nation Doc", href: "[GOOGLE LINK HERE]" },
         tone: "b",
