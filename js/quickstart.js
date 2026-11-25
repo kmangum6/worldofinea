@@ -52,8 +52,6 @@ const Overview = () => `
             <p>The sections below will go over a lot of the simpler information. Go step by step down this list and it will walk you through the basics of who your character is, what you need to know to play the game, and how to get signed up as well as what to make sure you have for your first event. As always, if you do have any questions that aren't answered here, you're also welcome to send us an email at worldofinea@gmail.com.</p>
             <div class="btn-quick">
                 <a class="btn" href="#anathema">What Are Anathema?</a>
-                <a class="btn" href="#archetypes">Character Archetypes</a>
-                <a class="btn" href="#builder">Character Builder</a>
                 <a class="btn" href="#signup">Signing Up</a>
                 <a class="btn" href="#backstory">Backstories</a>
                 <a class="btn" href="#event1">My First Event</a>
