@@ -21,7 +21,6 @@ const LINKS = [
         children: [
             { label: "Next Event Dates", href: "events.html" },
             { label: "Previous Event Dates", href: "previous.html" },
-            { label: "Pre-Game Prep", href: "prep.html" },
             { label: "Between Games", href: "downtime.html" },
         ],
     }, 

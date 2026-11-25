@@ -4,7 +4,7 @@ const FEATURES = [
     {
         id: "dayvsweekend",
         title: "Day Games vs Weekenders",
-        text: "Event Date",
+        text: "Day Games, Half-Day Games, and Weekenders all have different requirements depending on which you're going to. What you'll need for them is going to vary from piece to piece.",
         body: "Details",
         tone: "b",
         reverse: true,
@@ -51,8 +51,10 @@ const FEATURES = [
 const Overview = () => `
     <section class="overview" id="overview">
         <div>
-            <h2>AUGH! My event is coming up!</h2>
-            <p>Hey I heard you were a wild one. Oo-ooo-oo-oo.</p>
+            <h2>AUGH! My event is coming up! What am I gonna do?</h2>
+            <p>Don't worry random citizen! We're here to help!</p>
+            <p>This page is all about making sure that you know what you need to have, what you should probably bring, and what could be cool to bring to each event that you attend. This can sometimes vary from game to game, so we generally recommend that each type of event you double check one of these lists. After all, you aren't going to want to bring a sleeping back to a weekender event, but you'll <b>definitely</b> want one if you're at a weekender!</p>
+            <p>Granted, this isn't all encompassing, and you're always welcome to bring other things along as needed. If you ever have any questions about whether you should or shouldn't bring an item - you're welcome to ask the question on our Discord.</p>
         </div>
     </section>`;
  
