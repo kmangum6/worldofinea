@@ -51,6 +51,7 @@ const Footer = () => `
     <footer class="footer">
         <p class="footer-links">
             <a href="mailto:worldofinea@gmail.com">Email us with questions!</a><br />
+            <a href="https://discord.gg/R6gx3sbzXP">Join Our Discord!</a><br />
             <a href="#">Back to Top</a>
         </p>
     </footer>`;
