@@ -1,13 +1,12 @@
 const CENTER = [ "#nextevent", "#Feb2027", "#Mar2027", "#Apr2027", "#May2027"];
  
-const FEATURES = [
+const EVENTS = [
     {
         id: "nextevent",
-        title: "COMING SOON!",
-        text: "Winter 2027 Season",
-        body: "Our Winter season has not yet started, and we're currently working to solidify dates for the event. Once the rulebook gets fully completed (2.0 coming soon) we'll be able to get our schedule sent out. This should be released in December of 2026.",
-        tone: "b",
-        reverse: true,
+        title: "UPCOMING!",
+        date: "Winter 2026", 
+        teaser: "Winter 2026 event schedule will be announced in December, but it's coming soon! Keep an eye on this page!!", 
+        link: "https://forms.gle/PBakKKvm9K9VZLAD8",
     },
 ];
 
@@ -19,30 +18,14 @@ const Overview = () => `
         </div>
     </section>`;
  
-const Feature = ({ id, title, text, body, button, reverse, tone }) => `
-    <section ${id ? `id="${id}"` : ""} class="${reverse ? "band" : ""}">
-        <div class="row ${reverse ? "alt" : ""}">
-            <div>
-                <h2>${title}</h2>
-                <h3>${text}</h3>
-                <p>${body}</p>
-                ${button ? `<a class="btn" href="${button.href}">${button.label}</a>` : ''}
-            </div>
-            <div class="img ${tone}" role="img" aria-label="Decorative placeholder"></div>
-        </div>
-    </section>`;
- 
+const EventCard = ({ id, title, date, teaser, link }) => `
+    <article ${id ? `id="${id}"` : ""} class="versioncard">
+        <h2>${title}</h2>
+        <p class="versiondate">${date}</p>
+        <p>${teaser}</p>
+        ${link ? `<a class="btn" href="${link}" target="_blank" rel="noreferrer">Submit Downtime!</a>` : ""}
+    </article>`;
+
 document.getElementById("app").innerHTML = `
 ${Overview()}
-<div id="info">${FEATURES.map(Feature).join("")}</div>`;
- 
-document.querySelectorAll(`a[href^="#"]`).forEach((a) => {
-    a.addEventListener("click", (e) => {
-        const href = a.getAttribute("href");
-        if (!CENTER.includes(href)) return;
-        const el = document.querySelector(href);
-        if (!el) return;
-        e.preventDefault();
-        el.scrollIntoView({ behavior: "smooth", block: "center" });
-    });
-});
+<div id="info" class="archive-grid">${EVENTS.map(EventCard).join("")}</div><br><br>`;
