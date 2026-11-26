@@ -46,10 +46,6 @@ body {
     background: var(--forest);
 }
  
-.navbar .home {
-    background: var(--darkforest);
-}
- 
 .navbar .links {
     display: flex;
     margin-left: auto;
