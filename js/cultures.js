@@ -128,7 +128,7 @@ const Overview = () => `
         </div>
     </section><br><br>`;
  
-const Feature = ({ id, title, text, body, button, reverse, tone, image }) => `
+const Feature = ({ id, title, text, body, button, reverse, tone, image, alt }) => `
     <section ${id ? `id="${id}"` : ""} class="${reverse ? "band" : ""}">
         <div class="row ${reverse ? "alt" : ""}">
             <div>
