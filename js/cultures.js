@@ -51,6 +51,8 @@ const FEATURES = [
         button: { label: "Full Culture Doc", href: "docs/Jicos.pdf" },
         tone: "b",
         reverse: true,
+        image: "pics/jicos.jpg",
+        alt: "Man in medieval armor with sword",
     },
     {
         id: "morosus",
@@ -59,6 +61,8 @@ const FEATURES = [
         body: "(Pronounced mor-OH-sus). The Morosus are a people of longstanding history, as the Morosus culture has existed as far back as any recorded history. Because of their longstanding nature, the Morosus have an emphasis on traditionalism, belief in the right of those who have come before, and a stalwart defense of the way that things have always been.</p><p>The Morosus culture has come up hand-in-hand with the Children of the Martyr religion, and so they share many traits. One of the most notable is the importance of blood sacrifice and cannibalism to the way that they see the world working. Souls must be recycled over time, and that requires careful diligence and protection of the blood as an essential aspect of the soul and the spirit.</p><p>Morosus costumes are based on historical greco-roman style - tunics with some kind of sash or wrap across their person. The Morosus use sashes with different symbology, or different combinations of colors in order to identify family ties and rank among them. ",
         button: { label: "Full Culture Doc", href: "docs/Morosus.pdf" },
         tone: "a",
+        image: "pics/morosus.jpg",
+        alt: "Man in apron wielding pan.",
     },
     {
         id: "qicca",
@@ -68,6 +72,8 @@ const FEATURES = [
         button: { label: "Full Culture Doc", href: "docs/Qicca.pdf" },
         tone: "b",
         reverse: true,
+        image: "pics/extra7.jpg",
+        alt: "Girl with moss on face",
     },
     {
         id: "ruoatath",
@@ -76,6 +82,8 @@ const FEATURES = [
         body: "(Pronounced roo-OH-ah-tath). The Ruoatath are a large culture, and theoretically their culture takes up the largest amount of land of all cultures in Inea. That said, their origination on the Strait, a particularly hazardous and natural-disaster-prone piece of land that connects the two primary continents, has made them a particularly hardy and nomadic culture. Ruoatath often travel in large groups of caravans, nearly a town-size in their own right, and move with some regularity from place to place and city to city. While there are a few Ruoatath cities that have cropped up over time - for the most part the lands that the Ruoatath wander are empty plains with far too many natural disasters and that are too stony to properly raise crops.</p><p>Ruoatath are a particularly friendly people, with jovial nature and a tendency towards developing customer service manners of speaking. Most Ruoatath are merchants or caravaneers as the seas are particularly deadly and not always conducive to moving goods between the two continents. This leave the Strait, the Ruoatath’s primarily homeland, as the main place to send caravans.</p><p>Ruoatath costume is based on medieval England, with a focus on simple garb that is good for traveling, and a preference for bright colors in patches rather than specific patterns (when not wearing more practical things). Many Ruoatath also pick up traits from the other cultures that they serve, with those who travel frequently into the Amorone lands showing a preference for trinkets and jewelry, those who go closer to Lasil and the Eisak preferring wide, flowing clothing, and those who favor the Jicosian border often wearing leathers and pleated fabrics. ",
         button: { label: "Full Culture Doc", href: "docs/Ruoatath.pdf" },
         tone: "a",
+        image: "pics/ruoatath.jpg",
+        alt: "Richly dressed medieval couple",
     },
     {
         id: "souza",
@@ -85,6 +93,8 @@ const FEATURES = [
         button: { label: "Full Culture Doc", href: "docs/Souza.pdf" },
         tone: "b",
         reverse: true,
+        image: "pics/souza.jpg",
+        alt: "Man in tophat with wand.",
     },
     {
         id: "terhux",
@@ -93,6 +103,8 @@ const FEATURES = [
         body: "(Pronounced teh-ROO-ks) The Tehrux are insane - pure and simple. How this insanity manifests can be different for each Tehrux, but of all of the cultures this one is the most varied in costume, behavior, and mannerisms. Most Tehrux have their own culture entirely from the others, with their own preferences and expectations of others. The one thing that they have in common is that their expectations of the world and of other people is never what you could call “standard” or “normal”, and it very very rarely makes any sense.</p><p>The one thing that all Tehrux have in common is where they come from - the Deserted Wastes. Anyone, of any culture, that travels to the heart of the wastes and stays for long ends up slowly going insane and becoming a Tehrux themself. Whether Tehrux are born or simply made is, quite frankly, unknown. Even by the Tehrux themselves. However, one thing that has been noted is the Tehrux commonality towards being an Anathema. Somehow, their ability to control magic often runs more true here than any other place.</p><p>Tehrux costume is chaotic, and meant to be something that is cobbled together from items that otherwise wouldn’t be used for clothing. Tehrux rarely stop moving long enough to really craft items, so much of their things are made in a way that is haphazard at best. They are also often known for combining the aspects of several different cultures in their costume, whatever feels most useful or practical at the time. ",
         button: { label: "Full Culture Doc", href: "docs/Terhux.pdf" },
         tone: "a",
+        image: "pics/extra1.jpg",
+        alt: "Man hiding amoung dead branches.",
     },
 ];
 
