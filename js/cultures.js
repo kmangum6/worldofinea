@@ -1,4 +1,4 @@
-const CENTER = [ "#amorone", "#dakrian", "#eisak", "#jicos", "#morosus", "#qicca", "#ruoatath","#souza","#tehrux"];
+const CENTER = [ "#amorone", "#dakrian", "#eisak", "#jicos", "#morosus", "#qicca", "#ruoatath","#souza","#terhux"];
  
 const FEATURES = [
     {
@@ -123,7 +123,7 @@ const Overview = () => `
                 <a class="btn" href="#qicca">Qicca</a>
                 <a class="btn" href="#ruoatath">Ruoatath</a>
                 <a class="btn" href="#souza">Souza</a>
-                <a class="btn" href="#tehrux">Tehrux</a>
+                <a class="btn" href="#terhux">Terhux</a>
             </div>
         </div>
     </section><br><br>`;
