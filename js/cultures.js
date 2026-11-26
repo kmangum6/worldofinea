@@ -137,9 +137,9 @@ const Feature = ({ id, title, text, body, button, reverse, tone, image, alt }) =
                 <p>${body}</p>
                 ${button ? `<a class="btn" href="${button.href}">${button.label}</a>` : ''}
             </div>
-            <div class="img ${tone}" role="img" aria-label="<div class="img ${tone}" role="img"
+            <div class="img ${tone}" role="img"
                 aria-label="${image && alt ? alt : "Decorative placeholder"}"
-                ${image ? `style="--photo: url('${image}')"` : ""}></div>Decorative placeholder" ${image ? `style="--photo: url('${image}')"` : ""}></div>
+                ${image ? `style="--photo: url('${image}')"` : ""}></div>
         </div>
     </section>`;
  
