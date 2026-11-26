@@ -9,6 +9,8 @@ const FEATURES = [
         button: { label: "Full Culture Doc", href: "docs/Amorone.pdf" },
         tone: "b",
         reverse: true,
+        image: "pics/amorone.jpg",
+        alt: "People dressed as pirates standing over treasure.",
     },
     {
         id: "dakrian",
@@ -17,6 +19,8 @@ const FEATURES = [
         body: "(Pronounced DAH-kree-ann). The Dakrian people are still considered to be a mystery to much of the civilized world. With their island of Homeland only being “discovered” recently by some explorers from the Sostalian Empire, most of the Dakrians are still unused to outsiders, and many are downright hostile to them. However, among their own the Dakrians have a rich, unique and vibrant history.</p><p>While the Dakrian tribes have many differences between them, they all share a love for oratory and storytelling. Most Dakrian tribes are led by a Taleweaver - an elder who has spent decades of their life memorizing the old histories and stories of their tribe, big and small. This love of exploring history in a more fantastical way is something that sets the Dakrians apart, as well as the uniqueness and vibrance that each different tribe brings. </p><p>Dakrian costumes are based on a somewhat stereotypical barbarian or a hollywood-style &quot;viking&quot; - furs, face paint, and hide clothing. More than any other, you should take care not to appropriate special cultural relics or representations with the Dakrians, since theirs has the most likelihood of accidentally using something that could be considered sacred to real-world cultures.",
         button: { label: "Full Culture Doc", href: "docs/Dakrian.pdf" },
         tone: "a",
+        image: "pics/dakrian.jpg",
+        alt: "People standing around a log like a campfire.",
     },
     {
         id: "eisak",
@@ -26,6 +30,8 @@ const FEATURES = [
         button: { label: "Full Culture Doc", href: "docs/Eisak.pdf" },
         tone: "b",
         reverse: true,
+        image: "pics/eisak3.jpg",
+        alt: "Man standing with staff in a field.",
     },
     {
         id: "ixrean",
@@ -34,6 +40,8 @@ const FEATURES = [
         body: "(Pronounced IHX-ree-ann). The Ixrean “culture” is not so much a culture in itself as it is a strange illness or curse that has spread to all corners of Inea. Originally discovered by a Doctor Ixree several centuries ago in what would become the Azaldin Empire, the Ixrean disease causes people to suddenly begin gaining unnatural growths and features similar to plants, animals, or elements of the world. These are not limited to specific ones - for example some of these elements have been as broad as the element of water, or as specific as a particular type of a breed of bird.</p><p>Little is known about how one can become an Ixrean. There is generally some sort of trigger that happens, causing seizures or fatigue in a new Ixrean and believed to be connected to the touch or interaction with another Ixrean. Over time, the Ixrean will begin to show more and more features of their specific type. The more active that an animalistic Ixrean is, the more they become their animal, and the more slow and lethargic a plant-like Ixrean is, the more they become like that plant. So on and so forth.</p><p>Ixrean costuming is for those who really want to express something odd or different in their character - either something dryad-like or animal or elemental. There is no full standard here - you’re welcome to explore whatever thing you would like as long as it has a fairly definable theme. New players are encouraged to go over their idea with staff to make sure that it fits the correct idea. Also, Ixrean players should identify what culture their character came from before they became an Ixrean, as they should represent something of that culture in their costuming as well.",
         button: { label: "Full Culture Doc", href: "docs/Ixrean.pdf" },
         tone: "a",
+        image: "pics/ixrean.jpg",
+        alt: "Bull man with shield and hammer",
     },
     {
         id: "jicos",
@@ -108,7 +116,7 @@ const Overview = () => `
         </div>
     </section><br><br>`;
  
-const Feature = ({ id, title, text, body, button, reverse, tone }) => `
+const Feature = ({ id, title, text, body, button, reverse, tone, image }) => `
     <section ${id ? `id="${id}"` : ""} class="${reverse ? "band" : ""}">
         <div class="row ${reverse ? "alt" : ""}">
             <div>
@@ -117,7 +125,9 @@ const Feature = ({ id, title, text, body, button, reverse, tone }) => `
                 <p>${body}</p>
                 ${button ? `<a class="btn" href="${button.href}">${button.label}</a>` : ''}
             </div>
-            <div class="img ${tone}" role="img" aria-label="Decorative placeholder"></div>
+            <div class="img ${tone}" role="img" aria-label="<div class="img ${tone}" role="img"
+                aria-label="${image && alt ? alt : "Decorative placeholder"}"
+                ${image ? `style="--photo: url('${image}')"` : ""}></div>Decorative placeholder" ${image ? `style="--photo: url('${image}')"` : ""}></div>
         </div>
     </section>`;
  

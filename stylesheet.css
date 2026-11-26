@@ -441,13 +441,18 @@ body {
     border-radius: 4px;
     border: 1px solid var(--litegray);
 }
- 
+
 .img.a {
-    background: linear-gradient(160deg, var(--forest) 0 55%, var(--medgray) 55% 100%);
+    background: var(--photo, none), linear-gradient(160deg, var(--forest) 0 55%, var(--medgray) 55% 100%);
 }
- 
+
 .img.b {
-    background: linear-gradient(200deg, var(--litegray) 0 50%, var(--darkforest) 50% 100%);
+    background: var(--photo, none), linear-gradient(200deg, var(--litegray) 0 50%, var(--darkforest) 50% 100%);
+}
+
+.img.a, .img.b {
+    background-size: cover;
+    background-position: center;
 }
  
 .band {
