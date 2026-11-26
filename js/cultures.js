@@ -9,8 +9,8 @@ const FEATURES = [
         button: { label: "Full Culture Doc", href: "docs/Amorone.pdf" },
         tone: "b",
         reverse: true,
-        image: "pics/amorone.jpg",
-        alt: "People dressed as pirates standing over treasure.",
+        image: "pics/amorone1.jpg",
+        alt: "Ginger man standing with two swords.",
     },
     {
         id: "dakrian",

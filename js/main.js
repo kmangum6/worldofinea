@@ -1,4 +1,4 @@
-const CENTER = ["#about", "#rules", "#build"];
+const CENTER = ["#about", "#rules", "#combat", "#build"];
  
 const FEATURES = [
     {
@@ -7,6 +7,8 @@ const FEATURES = [
         text: "The World of Inea is an 18+ fantasy LARP experience in Salt Lake City and the surrounding area.",
         body: "Taking place in a unique world called Inea, our story follows a group of adventurers known as \"Anathema\", people with the innate ability to control chaotic magical forces that plague everyone there. Some revere anathema, some revile them, but in some way, shape, or form... everyone fears them.<br><br>This LARP is a classic hero's tale adventure with intrigue, lore, exploration, and general entertainment that you are able to find and create as all the players tell their stories together. Create your characters from any of the nine cultures and fifteen nations to choose from and customize with the help of our talented Story Team!",
         tone: "a",
+        image: "pics/amorone.jpg",
+        alt: "People dressed as pirates standing over treasure.", 
     },
     {
         id: "rules",
@@ -16,14 +18,27 @@ const FEATURES = [
         button: {label: "Rulebook", href: "rulebook.html"},
         reverse: true,
         tone: "b",
+        image: "pics/extra5.jpg",
+        alt: "Two people sitting and talking to eachother.",
+    },
+    {
+        id: "combat",
+        title: "Combat",
+        text: "Combat is &quot;Lightest-Touch&quote;, meaning that you need to try to only tap your target - not really hit them.",
+        body: "LARP combat can be complicated, but Inea strives to make it as simple to understand as possible while maintaining an immersive experience that allows you to play whatever kind of character you want to play. To help with that, calls are kept as simple and easy to understand as we can. That way, you'll generally have some idea of what each call is.",
+        button: {label: "Rulebook", href: "rulebook.html"},
+        tone: "a",
+        image: "pics/death.jpg",
+        alt: "Woman with blonde hair lying in the grass.",
     },
     {
         id: "build",
-        title: "Character Builder",
-        text: "Use the character builder to create your character and submit it to the Story and Logistics Teams before your first event!",
-        body: "You can use the link to the webpage below to go through the rules and create your character - allowing it to figure out the exact math on things like stats and skill points from there. Login before each game that you participate in to allocate additional Skill Points that you earn throughout your time adventuring.",
+        title: "Character Submissions",
+        text: "Once you're ready to submit your character, you can click the &quot;Submit Character&quot; button at the top of the page.",
+        body: "This will take you to a Google Form that will allow you to submit your character's build and any changes that you want to go through at the same time. Once it's been processed, Inea's Staff will send back an excel sheet character sheet that you can look over and plan around. This will be updated over time with new build and skills as you build them.",
         button: {label: "Create a Character!", href: "builder.html"},
-        tone: "a",
+        reverse: true,
+        tone: "b",
     },
 ];
  
@@ -39,7 +54,7 @@ const Hero = () => `
         </div>
     </header>`;
  
-const Feature = ({ id, title, text, body, button, reverse, tone }) => `
+const Feature = ({ id, title, text, body, button, reverse, tone, image, alt }) => `
     <section ${id ? `id="${id}"` : ""} class="${reverse ? "band" : ""}">
         <div class="row ${reverse ? "alt" : ""}">
             <div>
@@ -48,7 +63,9 @@ const Feature = ({ id, title, text, body, button, reverse, tone }) => `
                 <p>${body}</p>
                 ${button ? `<a class="btn" href="${button.href}">${button.label}</a>` : ""}
             </div>
-            <div class="img ${tone}" role="img" aria-label="Decorative placeholder"></div>
+            <div class="img ${tone}" role="img"
+                aria-label="${image && alt ? alt : "Decorative placeholder"}"
+                ${image ? `style="--photo: url('${image}')"` : ""}></div>
         </div>
     </section>`;
  
