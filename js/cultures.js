@@ -19,7 +19,7 @@ const FEATURES = [
         body: "(Pronounced DAH-kree-ann). The Dakrian people are still considered to be a mystery to much of the civilized world. With their island of Homeland only being “discovered” recently by some explorers from the Sostalian Empire, most of the Dakrians are still unused to outsiders, and many are downright hostile to them. However, among their own the Dakrians have a rich, unique and vibrant history.</p><p>While the Dakrian tribes have many differences between them, they all share a love for oratory and storytelling. Most Dakrian tribes are led by a Taleweaver - an elder who has spent decades of their life memorizing the old histories and stories of their tribe, big and small. This love of exploring history in a more fantastical way is something that sets the Dakrians apart, as well as the uniqueness and vibrance that each different tribe brings. </p><p>Dakrian costumes are based on a somewhat stereotypical barbarian or a hollywood-style &quot;viking&quot; - furs, face paint, and hide clothing. More than any other, you should take care not to appropriate special cultural relics or representations with the Dakrians, since theirs has the most likelihood of accidentally using something that could be considered sacred to real-world cultures.",
         button: { label: "Full Culture Doc", href: "docs/Dakrian.pdf" },
         tone: "a",
-        image: "pics/dakrian.jpg",
+        image: "pics/Dakrian.jpg",
         alt: "People standing around a log like a campfire.",
     },
     {
