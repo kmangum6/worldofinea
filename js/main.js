@@ -39,8 +39,8 @@ const FEATURES = [
         button: {label: "Create a Character!", href: "builder.html"},
         reverse: true,
         tone: "b",
-        image: "pics/extra7.jpg",
-        alt: "Girl with green face paint doing peace sign.",
+        image: "pics/extra9.jpg",
+        alt: "Girl with spear held to the sky.",
     },
 ];
  
