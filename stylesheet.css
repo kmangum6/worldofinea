@@ -108,7 +108,7 @@ body {
 }
  
 .drawer .dropdown-menu {
-    display: block;
+    display: none;
     position: static;
     padding-left: 1rem;
 }
