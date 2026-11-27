@@ -36,7 +36,7 @@ const FEATURES = [
         title: "Character Submissions",
         text: "Once you're ready to submit your character, you can click the &quot;Submit Character&quot; button at the top of the page.",
         body: "This will take you to a Google Form that will allow you to submit your character's build and any changes that you want to go through at the same time. Once it's been processed, Inea's Staff will send back an excel sheet character sheet that you can look over and plan around. This will be updated over time with new build and skills as you build them.",
-        button: {label: "Create a Character!", href: "builder.html"},
+        button: {label: "Create a Character!", href: "https://forms.gle/m4FTC1Ee7noY19Uh7"},
         reverse: true,
         tone: "b",
         image: "pics/extra9.jpg",
