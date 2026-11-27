@@ -24,7 +24,7 @@ const FEATURES = [
     {
         id: "combat",
         title: "Combat",
-        text: "Combat is &quot;Lightest-Touch&quote;, meaning that you need to try to only tap your target - not really hit them.",
+        text: "Combat is &quot;Lightest-Touch&quot;, meaning that you need to try to only tap your target - not really hit them.",
         body: "LARP combat can be complicated, but Inea strives to make it as simple to understand as possible while maintaining an immersive experience that allows you to play whatever kind of character you want to play. To help with that, calls are kept as simple and easy to understand as we can. That way, you'll generally have some idea of what each call is.",
         button: {label: "Rulebook", href: "rulebook.html"},
         tone: "a",
